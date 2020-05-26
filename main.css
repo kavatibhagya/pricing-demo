@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  font-family:  'Roboto', sans-serif;
+}
+header{
+  border-bottom: 0.9px solid rgb(208, 190, 190);
+  box-shadow:1px 1px 5px grey;
+}
+.main-header{
+  display: flex;
+  flex-wrap: row;
+}
+.main-title{
+  margin-right: auto;
+  font-size: 30px;
+  font-weight:lighter ;
+}
+.main-title:hover{
+  cursor: pointer;
+}
+
+
+.main-nav{
+  padding:25px;
+}
+.main-nav a{
+  padding:20px;
+  text-decoration: none;
+  color:#111;
+}
+.main-nav a:hover{
+  text-decoration: underline;
+}
+.main-nav a:visited{
+  color:rgb(31, 24, 167);
+}
+.main-nav a button{
+  height:40px;
+  width:100px;
+  border-radius: 10px;
+  font-size: 18px;
+  color:rgb(47, 47, 232);
+  border-color: rgb(47, 47, 232);
+}
+.main-nav a button:hover{
+  background-color: rgba(32, 55, 230, 0.9);
+  color:#fff;
+}
+
+
