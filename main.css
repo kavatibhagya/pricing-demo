@@ -60,16 +60,18 @@ header{
   justify-content: center;
 }
 .pricing-title{
-  font-size: 50px;
-  font-weight: lighter;
+  font-size: 70px;
+  font-weight: 200;
   font-family: 'Montserrat', sans-serif;
   margin-top: 60px;
   margin-bottom: 30px;
+  text-transform: capitalize;
 }
 .paragraph{
-   font-size: 25px;
+   font-size: 22px;
    font-weight: lighter;
    line-height: 1.8rem;
+   padding:20px;
 }
 .conatiner-two{
   max-width: 1250px;
@@ -78,11 +80,13 @@ header{
 .card-holder{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .row{
   display: flex;
   flex-direction: row;
+   flex-wrap: wrap;
 }
 .card{
   height:400px;
@@ -108,17 +112,21 @@ header{
 }
 .div-body{
   text-align: center !important;
+  padding: 10px;
 
 }
 .div-body ul{
   list-style-type: none;
-  line-height:1.7rem;
+  line-height:1.5rem;
+  margin:15px;
+  padding: 0px;
 }
 .card-title{
   font-size: 45px;
   font-weight: 1500px;
   padding: 0px;
-  margin: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   color:thick black;
 }
 h1 small{
@@ -133,8 +141,16 @@ h1 small{
   border-radius: 8px;
   outline: #c2daf4;
   border:none;
-  margin:0px 15px;
+  margin:0px 20px;
+  padding: 10px;
 
+}
+.color-b1:hover{
+  background-color: rgba(0, 103, 250, 0.87);
+  color:#fff;
+}
+.color-b2:hover{
+  background-color: rgba(6, 87, 201, 0.892);;
 }
 .color-b1{
   border:  1px solid rgba(4, 103, 250, 0.87);
@@ -146,4 +162,39 @@ h1 small{
   background-color:rgba(0, 103, 250, 0.87);
   color:#fff
 }
+.foot-div{
+  height:250px;
+  width:270px;
+  margin:20px;
+}
+hr{
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 2px rgb(232, 229, 229);
+  margin:40px;
+}
+.image{
+  display: flex;
+  flex-direction: column;
+}
+.mb-2{
+  margin:26px;
+}
+.foot-div ul{
+  list-style-type: none;
+  line-height: 1.4rem;
+  color:rgb(128, 122, 122);
+  font-weight: 700;
+}
+.foot-div h4{
+  text-transform: capitalize;
+  font-size: 25px;
+  
+}
+.foot-title{
+  margin:20px 0px;
+}
+.foot-ul{
+  padding:0px;
+  margin:0px;
 
+}
